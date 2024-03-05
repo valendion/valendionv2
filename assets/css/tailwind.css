@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .menu_navbar {
+    @apply hover:text-primary py-2 px-2 text-white;
+  }
+}
