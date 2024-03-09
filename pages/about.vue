@@ -1,9 +1,8 @@
 <template>
-  <div class=""><Content /></div>
+  <div class="">About</div>
 </template>
 
 <script setup lang="ts">
-import Content from "~/components/home/Content.vue";
 definePageMeta({
   layout: "base",
 });

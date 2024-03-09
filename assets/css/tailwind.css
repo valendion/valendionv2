@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-black w-full min-h-full overflow-x-hidden;
+  }
+}
+
+@layer components {
+  .menu_navbar {
+    @apply hover:text-primary py-2 px-2 text-white;
+  }
+
+  .main_wrapper {
+    @apply mx-auto max-w-screen-lg px-8;
+  }
+
+  .content_section {
+    @apply flex justify-center items-start flex-col min-h-screen;
+  }
+
+  .btn_contact {
+    overflow: hidden;
+    padding: 12px 24px;
+    border-radius: 7px;
+    background-color: #0f172a;
+    color: white;
+    border: 1px solid #00dc82;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .btn_contact span {
+    position: relative;
+    transition: color 0.6s cubic-bezier(0.53, 0.21, 0, 1);
+  }
+
+  .btn_contact:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #00dc82;
+    transform: scaleX(0);
+    transform-origin: 100% 100%;
+    transition: transform 0.6s cubic-bezier(0.53, 0.21, 0, 1);
+  }
+
+  .btn_contact:hover::before {
+    transform-origin: 0 0;
+    transform: scaleX(1);
+  }
+
+  .btn_contact:hover span {
+    color: #0f172a;
+  }
+}
