@@ -15,7 +15,7 @@
       </div>
     </div>
 
-    <div class="content_section"></div>
+    <!-- <div class="content_section"></div> -->
   </main>
 </template>
 

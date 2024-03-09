@@ -14,11 +14,11 @@
   }
 
   .main_wrapper {
-    @apply flex justify-center items-start flex-col min-h-screen;
+    @apply mx-auto max-w-screen-lg px-8;
   }
 
   .content_section {
-    @apply mx-auto max-w-screen-lg px-8;
+    @apply flex justify-center items-start flex-col min-h-screen;
   }
 
   .btn_contact {
