@@ -21,7 +21,7 @@
   }
 
   .content_section {
-    @apply flex justify-center items-start flex-col min-h-screen;
+    @apply flex justify-center  flex-col min-h-screen;
   }
 
   .btn_contact {
@@ -34,6 +34,7 @@
     position: relative;
     display: inline-block;
     cursor: pointer;
+    width: 150px;
   }
 
   .btn_contact span {
@@ -47,7 +48,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 150px;
     height: 100%;
     background: #00dc82;
     transform: scaleX(0);
@@ -62,5 +63,30 @@
 
   .btn_contact:hover span {
     color: #0f172a;
+  }
+
+  .border_profile_picture {
+    border-radius: 50% 50% 51% 49% / 30% 30% 70% 70%;
+  }
+
+  .profile-pic {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 280px;
+    height: 350px;
+    border-radius: 50%;
+    object-cover: cover;
+  }
+
+  .blob {
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -10;
+    width: 350px;
+    height: 350px;
   }
 }

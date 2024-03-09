@@ -13,6 +13,13 @@ export default {
         black: "#0f172a",
         whiteYoung: "#e2e8f0",
       },
+      listStyleType: {
+        square: "square",
+      },
+      listStyleImage: {
+        check: 'url("/icon/ic_check.png")',
+        check2: 'url("/icon/ic_check2.svg")',
+      },
     },
   },
   plugins: [],
