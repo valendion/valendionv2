@@ -15,7 +15,13 @@
       </div>
     </div>
 
-    <!-- <div class="content_section"></div> -->
+    <div class="content_section">
+      <div class="flex justify-center items-center">
+        <hr class="w-10 h-px bg-white" />
+        <p class="text-primary text-2xl">A. &nbsp;</p>
+        <span class="text-whiteYoung text-3xl">About Me</span>
+      </div>
+    </div>
   </main>
 </template>
 

@@ -6,20 +6,23 @@
       >
         <h1 class="pl-8 py-4 text-xl font-bold">Front End Developer</h1>
         <ul class="hidden md:flex items-center pr-10 text-sm cursor-pointer">
-          <link>
-            <span class="text-primary">A. </span
-            ><span class="text-whiteYoung menu_navbar">About Me</span>
-          </link>
-          <li >
-            <span class="text-primary">B. </span><span class="text-whiteYoung menu_navbar">Experience</span>
+          <li>
+            <p class="menu_navbar">
+              <span class="text-primary">A. </span>About Me
+            </p>
           </li>
           <li>
-            <span class="text-primary">C. </span
-            ><span class="text-whiteYoung menu_navbar">Work</span>
+            <p class="menu_navbar">
+              <span class="text-primary">B. </span>Experience
+            </p>
           </li>
-          <li >
-            <span class="text-primary">D. </span
-            ><span class="text-whiteYoung menu_navbar">Contact</span>
+          <li>
+            <p class="menu_navbar"><span class="text-primary">C. </span>Work</p>
+          </li>
+          <li>
+            <p class="menu_navbar">
+              <span class="text-primary">D. </span>Contact
+            </p>
           </li>
         </ul>
       </div>

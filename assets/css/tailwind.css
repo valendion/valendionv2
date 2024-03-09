@@ -9,8 +9,11 @@
 }
 
 @layer components {
+  /* .menu_navbar::hover {
+    color: #00dc82;
+  } */
   .menu_navbar {
-    @apply hover:text-primary py-2 px-2 text-white;
+    @apply py-2 px-2 text-whiteYoung hover:text-primary;
   }
 
   .main_wrapper {
