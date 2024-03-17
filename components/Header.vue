@@ -6,7 +6,8 @@
       <div
         class="mx-auto max-w-screen-lg px-4 flex justify-between items-center"
       >
-        <h1 class="pl-8 py-4 text-xl font-bold">Dion</h1>
+        <h1 class="pl-8 py-4 text-xl font-bold">.Valendion{}</h1>
+
         <ul class="hidden md:flex items-center pr-10 text-sm cursor-pointer">
           <li>
             <p class="menu_navbar">

@@ -89,4 +89,8 @@
     width: 350px;
     height: 350px;
   }
+
+  .splash_screen_logo {
+    @apply w-80 h-40;
+  }
 }
