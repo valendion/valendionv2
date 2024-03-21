@@ -13,6 +13,7 @@ export default {
         black: "#0f172a",
         secondary: "#059f67",
         whiteYoung: "#e2e8f0",
+        black_work: "#172a45",
       },
       listStyleType: {
         square: "square",
