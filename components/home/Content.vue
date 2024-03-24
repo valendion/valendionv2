@@ -3,6 +3,7 @@
     <Greeting />
     <AboutMe />
     <Experience />
+    <Work />
   </main>
 </template>
 
@@ -10,6 +11,7 @@
 import Greeting from "./Greeting.vue";
 import AboutMe from "./AboutMe.vue";
 import Experience from "./Experience.vue";
+import Work from "./Work.vue";
 </script>
 
 <style scoped></style>

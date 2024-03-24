@@ -93,4 +93,8 @@
   .splash_screen_logo {
     @apply w-80 h-40;
   }
+
+  .item_work {
+    @apply hover:-translate-y-2;
+  }
 }
