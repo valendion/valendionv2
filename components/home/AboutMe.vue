@@ -1,6 +1,6 @@
 <template>
   <div class="mb-40">
-    <div class="flex justify-between items-center">
+    <div class="flex justify-between items-center flex-col md:flex-row">
       <div class="flex items-start flex-col mr-10 w-9/12">
         <div class="flex justify-center items-center mb-5">
           <hr class="w-10 h-px bg-white" />
@@ -44,7 +44,7 @@
         />
         <img
           src="/img/blob.svg"
-          class="absolute -bottom-0 left-1/2 transform -translate-x-1/2 -z-10 w-[350px] h-[350px] scale-125"
+          class="absolute -bottom-0 left-1/2 transform -translate-y-3 -translate-x-1/2 -z-10 w-[350px] h-[350px] scale-125"
         />
       </div>
     </div>
