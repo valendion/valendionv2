@@ -1,5 +1,5 @@
 <template>
-  <div class="content_section">
+  <div class="content_section" id="home">
     <p class="text-primary text-base mb-8 ml-1">Hello, my name is</p>
     <p class="text-white text-5xl mb-8 myname"></p>
     <p class="text-whiteYoung text-3xl mb-8">

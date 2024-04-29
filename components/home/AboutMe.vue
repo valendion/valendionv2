@@ -1,5 +1,5 @@
 <template>
-  <div class="mb-40">
+  <div class="mb-40" id="about_me">
     <div class="flex justify-between items-center flex-col md:flex-row">
       <div class="flex items-start flex-col mr-10 w-9/12">
         <div class="flex justify-center items-center mb-5">

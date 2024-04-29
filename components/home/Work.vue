@@ -1,5 +1,5 @@
 <template>
-  <div class="mb-40">
+  <div class="mb-40" id="work">
     <div class="flex justify-between items-center flex-col">
       <div class="flex justify-start items-center mb-5 w-full">
         <hr class="w-10 h-px bg-white" />

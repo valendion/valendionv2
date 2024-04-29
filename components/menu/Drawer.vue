@@ -30,22 +30,32 @@
           class="flex items-start justify-center pr-10 text-sm cursor-pointer flex-col h-screen"
         >
           <li>
-            <p class="menu_drawer">
-              <span class="text-primary">A. </span>About Me
-            </p>
+            <NuxtLink to="#about_me">
+              <p class="menu_drawer" @click="toggleDrawer()">
+                <span class="text-primary">A. </span>About Me
+              </p>
+            </NuxtLink>
           </li>
           <li>
-            <p class="menu_drawer">
-              <span class="text-primary">B. </span>Experience
-            </p>
+            <NuxtLink to="#experience">
+              <p class="menu_drawer" @click="toggleDrawer()">
+                <span class="text-primary">B. </span>Experience
+              </p>
+            </NuxtLink>
           </li>
           <li>
-            <p class="menu_drawer"><span class="text-primary">C. </span>Work</p>
+            <NuxtLink to="#work">
+              <p class="menu_drawer" @click="toggleDrawer()">
+                <span class="text-primary">C. </span>Work
+              </p>
+            </NuxtLink>
           </li>
           <li>
-            <p class="menu_drawer">
-              <span class="text-primary">D. </span>Contact
-            </p>
+            <NuxtLink to="#contact">
+              <p class="menu_drawer" @click="toggleDrawer()">
+                <span class="text-primary">D. </span>Contact
+              </p>
+            </NuxtLink>
           </li>
         </ul>
       </div>
