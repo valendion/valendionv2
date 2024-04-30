@@ -16,6 +16,11 @@ import { onMounted, ref } from "vue";
 
 const loading = ref(true);
 
+useHead({
+  title: "Valendion | Porfolio",
+  meta: [{ name: "Website Portfolio", content: "Website Portfolio Valendion" }],
+});
+
 onMounted(() => {
   setTimeout(() => {
     loading.value = false;
