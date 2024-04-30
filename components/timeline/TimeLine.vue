@@ -1,7 +1,12 @@
 <template>
   <div class="max-w-7xl mx-auto w-full grid grid-cols-9 px-2">
     <!-- Stack 1 -->
-    <div class="col-span-4 w-full h-full">
+    <div
+      class="col-span-4 w-full h-full"
+      v-aos.once="['animate__fadeInLeft']"
+      data-aos-delay="0.5s"
+      data-aos-duration="1s"
+    >
       <div
         class="w-full h-full rounded-md p-4 md:pl-4 bg-black border-2 border-primary"
       >
@@ -46,7 +51,12 @@
         2
       </div>
     </div>
-    <div class="col-span-4 w-full h-full">
+    <div
+      class="col-span-4 w-full h-full"
+      v-aos.once="['animate__fadeInRight']"
+      data-aos-delay="0.5s"
+      data-aos-duration="1s"
+    >
       <div
         class="w-full h-full rounded-md p-4 md:pl-4 bg-black border-2 border-primary"
       >

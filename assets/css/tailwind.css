@@ -6,6 +6,10 @@
   body {
     @apply bg-black w-full min-h-full overflow-x-hidden;
   }
+
+  html {
+    @apply scroll-smooth;
+  }
 }
 
 @layer components {
@@ -15,6 +19,10 @@
 
   .menu_navbar {
     @apply py-2 px-2 text-whiteYoung hover:text-primary;
+  }
+
+  .menu_drawer {
+    @apply py-2 px-2 text-whiteYoung hover:text-primary  text-lg;
   }
 
   .main_wrapper {

@@ -6,33 +6,19 @@
       <div
         class="mx-auto max-w-screen-lg px-4 flex justify-between items-center"
       >
-        <h1 class="pl-8 py-4 text-xl font-bold">.Valendion{}</h1>
-
-        <ul class="hidden md:flex items-center pr-10 text-sm cursor-pointer">
-          <li>
-            <p class="menu_navbar">
-              <span class="text-primary">A. </span>About Me
-            </p>
-          </li>
-          <li>
-            <p class="menu_navbar">
-              <span class="text-primary">B. </span>Experience
-            </p>
-          </li>
-          <li>
-            <p class="menu_navbar"><span class="text-primary">C. </span>Work</p>
-          </li>
-          <li>
-            <p class="menu_navbar">
-              <span class="text-primary">D. </span>Contact
-            </p>
-          </li>
-        </ul>
+        <NuxtLink to="#home">
+          <h1 class="pl-8 py-4 text-xl font-bold">.Valendion{}</h1>
+        </NuxtLink>
+        <Drawer />
+        <Menu />
       </div>
     </nav>
   </header>
 </template>
 
-<script setup></script>
+<script setup>
+import Menu from "./menu/Menu.vue";
+import Drawer from "./menu/Drawer.vue";
+</script>
 
 <style lang="scss" scoped></style>
