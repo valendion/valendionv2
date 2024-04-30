@@ -1,7 +1,12 @@
 <template>
   <div class="mb-40" id="contact">
     <div class="flex justify-between items-center flex-col">
-      <div class="flex justify-start items-center mb-5 w-full">
+      <div
+        class="flex justify-start items-center mb-5 w-full"
+        v-aos.once="['animate__fadeInDown']"
+        data-aos-delay="0.5s"
+        data-aos-duration="1s"
+      >
         <hr class="w-10 h-px bg-white" />
         <p class="text-primary text-2xl">D. &nbsp;</p>
         <span class="text-white text-3xl">Contact </span>
@@ -12,7 +17,12 @@
 
     <!-- <div class="flex justify-center items-center"> -->
     <div class="grid md:grid-cols-4 gap-4 mt-10 grid-cols-1">
-      <div v-for="item in itemContacts">
+      <div
+        v-for="item in itemContacts"
+        v-aos.once="['animate__zoomIn']"
+        data-aos-delay="0.5s"
+        data-aos-duration="2s"
+      >
         <NuxtLink :to="item.socialMedia" target="_blank">
           <NuxtImg
             :src="item.icons"

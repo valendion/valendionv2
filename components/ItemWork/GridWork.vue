@@ -1,5 +1,10 @@
 <template>
-  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+  <div
+    class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"
+    v-aos.once="['animate__zoomIn']"
+    data-aos-delay="0.5s"
+    data-aos-duration="2s"
+  >
     <Item
       v-for="(item, index) in works"
       :key="index"

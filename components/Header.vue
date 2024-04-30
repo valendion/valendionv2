@@ -3,15 +3,15 @@
     <nav
       class="bg-black fixed top-0 left-0 shadow w-full text-primary z-10 opacity-90"
     >
-      <NuxtLink to="#home">
-        <div
-          class="mx-auto max-w-screen-lg px-4 flex justify-between items-center"
-        >
+      <div
+        class="mx-auto max-w-screen-lg px-4 flex justify-between items-center"
+      >
+        <NuxtLink to="#home">
           <h1 class="pl-8 py-4 text-xl font-bold">.Valendion{}</h1>
-          <Drawer />
-          <Menu />
-        </div>
-      </NuxtLink>
+        </NuxtLink>
+        <Drawer />
+        <Menu />
+      </div>
     </nav>
   </header>
 </template>

@@ -5,10 +5,11 @@
     <p class="text-whiteYoung text-3xl mb-8">
       I build websites from the appearance side.
     </p>
-
-    <div class="btn_contact">
-      <span class="primary-style-text">Contact Me</span>
-    </div>
+    <NuxtLink to="mailto:valendion874@gmail.com">
+      <div class="btn_contact">
+        <span class="primary-style-text">Contact Me</span>
+      </div>
+    </NuxtLink>
   </div>
 </template>
 
